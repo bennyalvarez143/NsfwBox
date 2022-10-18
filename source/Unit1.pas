@@ -446,9 +446,8 @@ type
     function AddMenuBtn: TRectButton;
     function AddMenuSearchBtn(AText: string; AImageName: string = ''; AOnTap: TTapEvent = nil): TRectButton;
     function AddItemMenuBtn(ACaption: string; AAction: TNBoxItemInteraction; AImageName: string = ''; ATag: string = ''): TRectButton;
-    function AddBrowser(ARequest: INBoxSearchRequest = nil; AAutoStartBrowse: boolean = false; AAbortIfReqExists: boolean = False): TNBoxBrowser.TNBoxTab;
-    procedure DeleteBrowser(ABrowser: TNBoxBrowser; ADeleteFromSession: boolean = True);
-    procedure DeleteAllBrowsers(ADeleteFromSession: boolean = True);
+    function AddBrowser(ARequest: INBoxSearchRequest = nil; AAutoStartBrowse: boolean = false): TNBoxTab;
+    procedure DeleteBrowser(ABrowser: TNBoxBrowser);
     { -> Properies ---------------- }
     property CurrentBrowser: TNBoxBrowser read FCurrentBrowser write SetCurrentBrowser;
     property CurrentItem: TNBoxCardBase read FCurrentItem write SetCurrentItem;
@@ -3710,17 +3709,12 @@ end;
 procedure TForm1.SetDefToWebClient(AClient: TNetHttpClient; AOrigin: integer);
 begin
   with AClient do begin
-
-    if not (AOrigin = PVR_DANBOORU) then
-    begin
-      Useragent := Settings.DefaultUseragent;
-      Customheaders['Accept'] := '*/*';
-      CustomHeaders['Accept-Language'] := 'en-US,en;q=0.5';
-      CustomHeaders['Accept-Encoding'] := 'gzip, deflate'; { br not support }
-    end;
-
+    Useragent := Form1.Settings.DefaultUseragent;
     AutomaticDecompression := [THttpCompressionMethod.Any];
-    AllowCookies := Settings.AllowCookies;
+    Customheaders['Accept'] := '*/*';
+    CustomHeaders['Accept-Language'] := 'en-US,en;q=0.5';
+    CustomHeaders['Accept-Encoding'] := 'gzip, deflate, br';
+    AllowCookies := Form1.Settings.AllowCookies;
     SendTimeout := 6000;
     ConnectionTimeout := 6000;
     ResponseTimeout := 6000;
