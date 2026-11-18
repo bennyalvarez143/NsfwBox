@@ -12,10 +12,10 @@ Developed on RAD Studio 11 Alexandria.
 ### Censored screenshots:
 
 #### Android:
-<div>
-  <img src="./assets/github/screenshot_1.jpg" width="32%"/>
-  <img src="./assets/github/screenshot_2.jpg" width="32%"/>
-  <img src="./assets/github/screenshot_3.jpg" width="32%"/>
+
+<div style="display: flex; gap: 4%;">
+  <img src="./assets/github/screenshot_2.jpg" alt="Android screenshot 2" style="width: 48%;" />
+  <img src="./assets/github/screenshot_3.jpg" alt="Android screenshot 3" style="width: 48%;" />
 </div>
 
 <details>
