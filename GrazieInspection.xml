@@ -1,0 +1,86 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/README.md</file>
+  <line>9</line>
+  <module>NsfwBox</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/README.md" />
+  <problem_class id="GrazieInspection" severity="GRAMMAR_ERROR" attribute_key="GRAMMAR_ERROR">Grammar</problem_class>
+  <description>'Windows' (operating system by Microsoft) is a proper noun and needs to be capitalized.</description>
+  <highlighted_element>windows</highlighted_element>
+  <language>Markdown</language>
+  <offset>19</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/README.md</file>
+  <line>31</line>
+  <module>NsfwBox</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/README.md" />
+  <problem_class id="GrazieInspection" severity="GRAMMAR_ERROR" attribute_key="GRAMMAR_ERROR">Grammar</problem_class>
+  <description>If a new sentence starts here, add a space and start with an uppercase letter.</description>
+  <highlighted_element>pics</highlighted_element>
+  <language>Markdown</language>
+  <offset>141</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/README.md</file>
+  <line>32</line>
+  <module>NsfwBox</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/README.md" />
+  <problem_class id="GrazieInspection" severity="GRAMMAR_ERROR" attribute_key="GRAMMAR_ERROR">Grammar</problem_class>
+  <description>File types are usually capitalized</description>
+  <highlighted_element>Json</highlighted_element>
+  <language>Markdown</language>
+  <offset>88</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/assets/themes/README.md</file>
+  <line>11</line>
+  <module>NsfwBox</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/assets/themes/README.md" />
+  <problem_class id="GrazieInspection" severity="GRAMMAR_ERROR" attribute_key="GRAMMAR_ERROR">Grammar</problem_class>
+  <description>Did you mean the abbreviation for &quot;I don't know&quot;?</description>
+  <highlighted_element>idk</highlighted_element>
+  <language>Markdown</language>
+  <offset>60</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/assets/themes/README.md</file>
+  <line>13</line>
+  <module>NsfwBox</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/assets/themes/README.md" />
+  <problem_class id="GrazieInspection" severity="GRAMMAR_ERROR" attribute_key="GRAMMAR_ERROR">Grammar</problem_class>
+  <description>Did you mean the abbreviation for &quot;I don't know&quot;?</description>
+  <highlighted_element>idk</highlighted_element>
+  <language>Markdown</language>
+  <offset>63</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/assets/themes/README.md</file>
+  <line>17</line>
+  <module>NsfwBox</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/assets/themes/README.md" />
+  <problem_class id="GrazieInspection" severity="GRAMMAR_ERROR" attribute_key="GRAMMAR_ERROR">Grammar</problem_class>
+  <description>Did you mean the abbreviation for &quot;I don't know&quot;?</description>
+  <highlighted_element>idk</highlighted_element>
+  <language>Markdown</language>
+  <offset>58</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/assets/themes/README.md</file>
+  <line>18</line>
+  <module>NsfwBox</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/assets/themes/README.md" />
+  <problem_class id="GrazieInspection" severity="GRAMMAR_ERROR" attribute_key="GRAMMAR_ERROR">Grammar</problem_class>
+  <description>Did you mean the abbreviation for &quot;I don't know&quot;?</description>
+  <highlighted_element>idk</highlighted_element>
+  <language>Markdown</language>
+  <offset>58</offset>
+  <length>3</length>
+</problem>
+</problems>

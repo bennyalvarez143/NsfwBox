@@ -1,0 +1,26 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/LICENSE.md</file>
+  <line>10</line>
+  <module>NsfwBox</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/LICENSE.md" />
+  <problem_class id="GrazieStyle" severity="STYLE_SUGGESTION" attribute_key="TEXT_STYLE_SUGGESTION">Style</problem_class>
+  <description>Long sentences (67 words here) are harder to read, according to the research; consider splitting</description>
+  <highlighted_element>conditions:</highlighted_element>
+  <language>Markdown</language>
+  <offset>45</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/LICENSE.md</file>
+  <line>21</line>
+  <module>NsfwBox</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/LICENSE.md" />
+  <problem_class id="GrazieStyle" severity="STYLE_SUGGESTION" attribute_key="TEXT_STYLE_SUGGESTION">Style</problem_class>
+  <description>Long sentences (46 words here) are harder to read, according to the research; consider splitting</description>
+  <highlighted_element>SOFTWARE.</highlighted_element>
+  <language>Markdown</language>
+  <offset>0</offset>
+  <length>9</length>
+</problem>
+</problems>

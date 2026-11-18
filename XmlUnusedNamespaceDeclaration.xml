@@ -1,0 +1,50 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/assets/themes/default/dummy-audio.svg</file>
+  <line>18</line>
+  <module>NsfwBox</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/assets/themes/default/dummy-audio.svg" />
+  <problem_class id="XmlUnusedNamespaceDeclaration" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unused schema declaration</problem_class>
+  <description>Namespace declaration is never used</description>
+  <highlighted_element>xmlns:svg=&quot;http://www.w3.org/2000/svg&quot;</highlighted_element>
+  <language>SVG</language>
+  <offset>3</offset>
+  <length>38</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/assets/themes/default/dummy-video.svg</file>
+  <line>18</line>
+  <module>NsfwBox</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/assets/themes/default/dummy-video.svg" />
+  <problem_class id="XmlUnusedNamespaceDeclaration" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unused schema declaration</problem_class>
+  <description>Namespace declaration is never used</description>
+  <highlighted_element>xmlns:svg=&quot;http://www.w3.org/2000/svg&quot;</highlighted_element>
+  <language>SVG</language>
+  <offset>3</offset>
+  <length>38</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/assets/themes/default/image-loading-error.svg</file>
+  <line>18</line>
+  <module>NsfwBox</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/assets/themes/default/image-loading-error.svg" />
+  <problem_class id="XmlUnusedNamespaceDeclaration" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unused schema declaration</problem_class>
+  <description>Namespace declaration is never used</description>
+  <highlighted_element>xmlns:svg=&quot;http://www.w3.org/2000/svg&quot;</highlighted_element>
+  <language>SVG</language>
+  <offset>3</offset>
+  <length>38</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/assets/themes/default/image-loading.svg</file>
+  <line>18</line>
+  <module>NsfwBox</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/assets/themes/default/image-loading.svg" />
+  <problem_class id="XmlUnusedNamespaceDeclaration" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unused schema declaration</problem_class>
+  <description>Namespace declaration is never used</description>
+  <highlighted_element>xmlns:svg=&quot;http://www.w3.org/2000/svg&quot;</highlighted_element>
+  <language>SVG</language>
+  <offset>3</offset>
+  <length>38</length>
+</problem>
+</problems>

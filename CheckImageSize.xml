@@ -1,0 +1,14 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/README.md</file>
+  <line>24</line>
+  <module>NsfwBox</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/README.md" />
+  <problem_class id="CheckImageSize" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Mismatched image size</problem_class>
+  <description>Original image width is 826</description>
+  <highlighted_element>&quot;97%&quot;</highlighted_element>
+  <language>HTML</language>
+  <offset>59</offset>
+  <length>5</length>
+</problem>
+</problems>
